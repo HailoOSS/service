@@ -8,8 +8,8 @@ import (
 )
 
 const (
-	HealthCheckId  = "com.hailocab.service.zookeeper"
-	MaxConnCheckId = "com.hailocab.service.zookeeper.maxconns"
+	HealthCheckId  = "com.HailoOSS.service.zookeeper"
+	MaxConnCheckId = "com.HailoOSS.service.zookeeper.maxconns"
 )
 
 // HealthCheck asserts we can talk to ZK

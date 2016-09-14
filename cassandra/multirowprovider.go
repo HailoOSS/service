@@ -1,7 +1,7 @@
 package cassandra
 
 import (
-	"github.com/hailocab/gossie/src/gossie"
+	"github.com/HailoOSS/gossie/src/gossie"
 )
 
 type MultiRowProvider struct {

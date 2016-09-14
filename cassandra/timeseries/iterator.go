@@ -9,7 +9,7 @@ import (
 	log "github.com/cihub/seelog"
 
 	"github.com/HailoOSS/service/cassandra"
-	"github.com/hailocab/gossie/src/gossie"
+	"github.com/HailoOSS/gossie/src/gossie"
 )
 
 // Item represents something fetched from timeseries

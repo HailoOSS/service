@@ -3,11 +3,11 @@ package memcache
 import (
 	"fmt"
 	"github.com/HailoOSS/service/healthcheck"
-	"github.com/hailocab/gomemcache/memcache"
+	"github.com/HailoOSS/gomemcache/memcache"
 )
 
 const (
-	HealthCheckId = "com.hailocab.service.memcache"
+	HealthCheckId = "com.HailoOSS.service.memcache"
 )
 
 // HealthCheck asserts we can talk to memcache

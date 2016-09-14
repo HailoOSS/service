@@ -8,7 +8,7 @@ import (
 )
 
 const (
-	domain = "hailocab.net"
+	domain = "HailoOSS.net"
 	scope  = "i"
 )
 

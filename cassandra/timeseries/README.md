@@ -1,6 +1,6 @@
 # C* Time Series
 
-Maintainer: dg@hailocab.com
+Maintainer: dg@HailoOSS.com
 
 This readme is brief on the basis that we're recreating this functionality
 using CQL3 within `Om` - so it will be explained in more detail there.

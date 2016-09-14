@@ -6,7 +6,7 @@ package memcache
 
 import (
 	d "github.com/HailoOSS/service/dedupe"
-	mc "github.com/hailocab/gomemcache/memcache"
+	mc "github.com/HailoOSS/gomemcache/memcache"
 )
 
 type MemcacheDeduper struct {

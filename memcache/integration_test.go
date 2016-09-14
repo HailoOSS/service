@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/HailoOSS/service/config"
-	"github.com/hailocab/gomemcache/memcache"
+	"github.com/HailoOSS/gomemcache/memcache"
 )
 
 func TestPub(t *testing.T) {

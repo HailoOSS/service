@@ -9,7 +9,7 @@ import (
 	"github.com/HailoOSS/service/config"
 	"github.com/HailoOSS/service/dns"
 	inst "github.com/HailoOSS/service/instrumentation"
-	"github.com/hailocab/gomemcache/memcache"
+	"github.com/HailoOSS/gomemcache/memcache"
 )
 
 const (

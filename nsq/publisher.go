@@ -9,8 +9,8 @@ import (
 	"github.com/stretchr/testify/mock"
 
 	log "github.com/cihub/seelog"
-	"github.com/hailocab/go-hostpool"
-	nsqlib "github.com/hailocab/go-nsq"
+	"github.com/HailoOSS/go-hostpool"
+	nsqlib "github.com/HailoOSS/go-nsq"
 	"github.com/HailoOSS/service/config"
 	inst "github.com/HailoOSS/service/instrumentation"
 )

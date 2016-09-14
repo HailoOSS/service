@@ -11,7 +11,7 @@ import (
 
 	log "github.com/cihub/seelog"
 	"github.com/gocql/gocql"
-	"github.com/hailocab/gocassa"
+	"github.com/HailoOSS/gocassa"
 
 	"github.com/HailoOSS/service/config"
 )

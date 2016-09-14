@@ -11,7 +11,7 @@ import (
 	"time"
 )
 
-const HealthCheckId = "com.hailocab.service.aws_ec"
+const HealthCheckId = "com.HailoOSS.service.aws_ec"
 
 type ECClient struct {
 	conn redis.Conn

@@ -18,7 +18,7 @@ import (
 	"github.com/HailoOSS/platform/util"
 	"github.com/HailoOSS/service/config"
 	"github.com/HailoOSS/service/dns"
-	gozk "github.com/hailocab/go-zookeeper/zk"
+	gozk "github.com/HailoOSS/go-zookeeper/zk"
 )
 
 type ZookeeperClient interface {

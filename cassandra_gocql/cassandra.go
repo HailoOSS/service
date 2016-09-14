@@ -9,7 +9,7 @@ import (
 
 	log "github.com/cihub/seelog"
 
-	"github.com/hailocab/go-hostpool"
+	"github.com/HailoOSS/go-hostpool"
 
 	"github.com/gocql/gocql"
 	platutil "github.com/HailoOSS/platform/util"

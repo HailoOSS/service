@@ -1,7 +1,7 @@
 package nsq
 
 import (
-	nsqlib "github.com/hailocab/go-nsq"
+	nsqlib "github.com/HailoOSS/go-nsq"
 )
 
 const (

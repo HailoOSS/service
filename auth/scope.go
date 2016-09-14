@@ -5,25 +5,25 @@ import (
 	"time"
 
 	log "github.com/cihub/seelog"
-	"github.com/hailocab/protobuf/proto"
+	"github.com/HailoOSS/protobuf/proto"
 
 	"github.com/HailoOSS/platform/client"
 	"github.com/HailoOSS/platform/errors"
 	"github.com/HailoOSS/platform/multiclient"
 	inst "github.com/HailoOSS/service/instrumentation"
 
-	loginproto "github.com/hailocab/go-login-service/proto"
-	authproto "github.com/hailocab/go-login-service/proto/auth"
-	sessdelproto "github.com/hailocab/go-login-service/proto/deletesession"
-	sessreadproto "github.com/hailocab/go-login-service/proto/readsession"
+	loginproto "github.com/HailoOSS/go-login-service/proto"
+	authproto "github.com/HailoOSS/go-login-service/proto/auth"
+	sessdelproto "github.com/HailoOSS/go-login-service/proto/deletesession"
+	sessreadproto "github.com/HailoOSS/go-login-service/proto/readsession"
 )
 
 const (
-	loginService          = "com.hailocab.service.login"
+	loginService          = "com.HailoOSS.service.login"
 	readSessionEndpoint   = "readsession"
 	deleteSessionEndpoint = "deletesession"
 	authEndpoint          = "auth"
-	badCredentialsErrCode = "com.hailocab.service.login.auth.badCredentials"
+	badCredentialsErrCode = "com.HailoOSS.service.login.auth.badCredentials"
 )
 
 // Scope represents some session witin which we may know about a user who has

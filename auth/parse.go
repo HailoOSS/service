@@ -2,7 +2,7 @@ package auth
 
 import (
 	"encoding/base64"
-	"github.com/hailocab/go-hailo-lib/validate"
+	"github.com/HailoOSS/go-hailo-lib/validate"
 	"strconv"
 	"strings"
 	"time"

@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/HailoOSS/service/cassandra"
-	"github.com/hailocab/gossie/src/gossie"
+	"github.com/HailoOSS/gossie/src/gossie"
 )
 
 const (

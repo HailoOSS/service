@@ -14,7 +14,7 @@ import (
 	inst "github.com/HailoOSS/service/instrumentation"
 
 	"github.com/HailoOSS/service/zookeeper"
-	gozk "github.com/hailocab/go-zookeeper/zk"
+	gozk "github.com/HailoOSS/go-zookeeper/zk"
 )
 
 const (

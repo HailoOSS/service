@@ -4,15 +4,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hailocab/protobuf/proto"
+	"github.com/HailoOSS/protobuf/proto"
 
 	"github.com/HailoOSS/platform/errors"
 	"github.com/HailoOSS/platform/multiclient"
 	ptesting "github.com/HailoOSS/platform/testing"
 
-	authproto "github.com/hailocab/go-login-service/proto/auth"
-	sessdelproto "github.com/hailocab/go-login-service/proto/deletesession"
-	sessreadproto "github.com/hailocab/go-login-service/proto/readsession"
+	authproto "github.com/HailoOSS/go-login-service/proto/auth"
+	sessdelproto "github.com/HailoOSS/go-login-service/proto/deletesession"
+	sessreadproto "github.com/HailoOSS/go-login-service/proto/readsession"
 )
 
 const (
@@ -94,7 +94,7 @@ func (suite *sessionRecoverySuite) TestRecoverSessionHappyNotFound() {
 	stub := &multiclient.Stub{
 		Service:  loginService,
 		Endpoint: readSessionEndpoint,
-		Error:    errors.NotFound("com.hailocab.service.login.readsession", "Session not found"),
+		Error:    errors.NotFound("com.HailoOSS.service.login.readsession", "Session not found"),
 	}
 	mock.Stub(stub)
 	multiclient.SetCaller(mock.Caller())
@@ -144,7 +144,7 @@ func (suite *sessionRecoverySuite) TestRecoverSessionSad() {
 	stub := &multiclient.Stub{
 		Service:  loginService,
 		Endpoint: readSessionEndpoint,
-		Error:    errors.InternalServerError("com.hailocab.service.login.foo", "Things are foo barred"),
+		Error:    errors.InternalServerError("com.HailoOSS.service.login.foo", "Things are foo barred"),
 	}
 	mock.Stub(stub)
 	multiclient.SetCaller(mock.Caller())
@@ -171,7 +171,7 @@ func (suite *sessionRecoverySuite) TestRecoverService() {
 	scope := New().(*realScope)
 
 	toEndpoint := "someendpoint"
-	fromService := "com.hailocab.service.foo"
+	fromService := "com.HailoOSS.service.foo"
 
 	if scope.toEndpoint != "" {
 		t.Errorf("Expecting default 'toEndpoint' to be blank, got '%s'", scope.toEndpoint)
@@ -316,7 +316,7 @@ func (suite *sessionRecoverySuite) TestAuthHappyCaseInvalid() {
 	stub := &multiclient.Stub{
 		Service:  loginService,
 		Endpoint: authEndpoint,
-		Error:    errors.Forbidden("com.hailocab.service.login.auth.badCredentials", "Bad credentials"),
+		Error:    errors.Forbidden("com.HailoOSS.service.login.auth.badCredentials", "Bad credentials"),
 	}
 	mock.Stub(stub)
 	multiclient.SetCaller(mock.Caller())
@@ -362,7 +362,7 @@ func (suite *sessionRecoverySuite) TestAuthUnhappyCaseInvalid() {
 	stub := &multiclient.Stub{
 		Service:  loginService,
 		Endpoint: authEndpoint,
-		Error:    errors.InternalServerError("com.hailocab.service.login.auth.foobarred", "It's FOOBARRED"),
+		Error:    errors.InternalServerError("com.HailoOSS.service.login.auth.foobarred", "It's FOOBARRED"),
 	}
 	mock.Stub(stub)
 	multiclient.SetCaller(mock.Caller())

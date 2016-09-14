@@ -6,7 +6,7 @@ import (
 
 	s "github.com/HailoOSS/platform/server"
 
-	"github.com/hailocab/gocassa"
+	"github.com/HailoOSS/gocassa"
 )
 
 var (

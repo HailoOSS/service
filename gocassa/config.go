@@ -12,7 +12,7 @@ import (
 
 	log "github.com/cihub/seelog"
 	"github.com/gocql/gocql"
-	"github.com/hailocab/go-hostpool"
+	"github.com/HailoOSS/go-hostpool"
 
 	platutil "github.com/HailoOSS/platform/util"
 	"github.com/HailoOSS/service/config"

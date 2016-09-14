@@ -21,7 +21,7 @@ import (
 	sjson "github.com/bitly/go-simplejson"
 	log "github.com/cihub/seelog"
 
-	distance "github.com/hailocab/go-distance"
+	distance "github.com/HailoOSS/go-distance"
 	"github.com/HailoOSS/service/encryption"
 )
 

@@ -6,12 +6,12 @@ import (
 
 	"github.com/HailoOSS/service/connhealthcheck"
 	"github.com/HailoOSS/service/healthcheck"
-	"github.com/hailocab/gocassa"
+	"github.com/HailoOSS/gocassa"
 )
 
 const (
-	HealthCheckId  = "com.hailocab.service.cassandra-gocassa"
-	MaxConnCheckId = "com.hailocab.service.cassandra-gocassa.maxconns"
+	HealthCheckId  = "com.HailoOSS.service.cassandra-gocassa"
+	MaxConnCheckId = "com.HailoOSS.service.cassandra-gocassa.maxconns"
 )
 
 // HealthCheck verifies we can connect to the supplied C* keyspace, and verifies the passed column families exist

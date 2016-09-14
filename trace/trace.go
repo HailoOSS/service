@@ -6,7 +6,7 @@ import (
 	"fmt"
 	log "github.com/cihub/seelog"
 	traceproto "github.com/HailoOSS/platform/proto/trace"
-	"github.com/hailocab/protobuf/proto"
+	"github.com/HailoOSS/protobuf/proto"
 )
 
 // Send will ping off a trace event

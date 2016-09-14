@@ -15,9 +15,9 @@ import (
 )
 
 const (
-	HealthCheckId   = "com.hailocab.service.nsq"
-	HighWatermarkId = "com.hailocab.service.nsq.highwatermark"
-	MaxConnCheckId  = "com.hailocab.service.nsq.maxconns"
+	HealthCheckId   = "com.HailoOSS.service.nsq"
+	HighWatermarkId = "com.HailoOSS.service.nsq.highwatermark"
+	MaxConnCheckId  = "com.HailoOSS.service.nsq.maxconns"
 )
 
 var (

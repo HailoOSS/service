@@ -12,7 +12,7 @@ import (
 
 	log "github.com/cihub/seelog"
 
-	"github.com/hailocab/gossie/src/gossie"
+	"github.com/HailoOSS/gossie/src/gossie"
 )
 
 /*

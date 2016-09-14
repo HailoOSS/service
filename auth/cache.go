@@ -8,7 +8,7 @@ import (
 
 	inst "github.com/HailoOSS/service/instrumentation"
 	mc "github.com/HailoOSS/service/memcache"
-	"github.com/hailocab/gomemcache/memcache"
+	"github.com/HailoOSS/gomemcache/memcache"
 )
 
 const (
