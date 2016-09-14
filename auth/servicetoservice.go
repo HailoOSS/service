@@ -15,7 +15,7 @@ import (
 
 	"github.com/HailoOSS/platform/client"
 
-	endpointauth "github.com/HailoOSS/go-login-service/proto/endpointauth"
+	endpointauth "github.com/HailoOSS/login-service/proto/endpointauth"
 )
 
 const (

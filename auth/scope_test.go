@@ -10,9 +10,9 @@ import (
 	"github.com/HailoOSS/platform/multiclient"
 	ptesting "github.com/HailoOSS/platform/testing"
 
-	authproto "github.com/HailoOSS/go-login-service/proto/auth"
-	sessdelproto "github.com/HailoOSS/go-login-service/proto/deletesession"
-	sessreadproto "github.com/HailoOSS/go-login-service/proto/readsession"
+	authproto "github.com/HailoOSS/login-service/proto/auth"
+	sessdelproto "github.com/HailoOSS/login-service/proto/deletesession"
+	sessreadproto "github.com/HailoOSS/login-service/proto/readsession"
 )
 
 const (

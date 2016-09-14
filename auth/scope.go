@@ -12,10 +12,10 @@ import (
 	"github.com/HailoOSS/platform/multiclient"
 	inst "github.com/HailoOSS/service/instrumentation"
 
-	loginproto "github.com/HailoOSS/go-login-service/proto"
-	authproto "github.com/HailoOSS/go-login-service/proto/auth"
-	sessdelproto "github.com/HailoOSS/go-login-service/proto/deletesession"
-	sessreadproto "github.com/HailoOSS/go-login-service/proto/readsession"
+	loginproto "github.com/HailoOSS/login-service/proto"
+	authproto "github.com/HailoOSS/login-service/proto/auth"
+	sessdelproto "github.com/HailoOSS/login-service/proto/deletesession"
+	sessreadproto "github.com/HailoOSS/login-service/proto/readsession"
 )
 
 const (
